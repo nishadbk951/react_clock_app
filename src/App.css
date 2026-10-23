@@ -1,0 +1,42 @@
+
+.clock-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at center, #1e2638 0%, #0d1117 100%);
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+
+.clock-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 60px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+}
+
+
+.clock-title {
+  margin: 0 0 10px 0;
+  font-size: 1rem;
+  letter-spacing: 4px;
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.clock-digits {
+  margin: 0;
+  font-size: 4rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #ffffff;
+  letter-spacing: 2px;
+  text-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
+}
